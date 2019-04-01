@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+li{
+    list-style-type:none;
+}
+.box {
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.switch-btn {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+}
