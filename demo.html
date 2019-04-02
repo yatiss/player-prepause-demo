@@ -5,9 +5,11 @@
     <title> player-prepause-demo </title>
     <link rel="stylesheet" href="demo.css"/>
     <script src="jquery3.2.1.min.js"></script>
+    <script src="layer-v2.2/layer.js"></script>
     <script src="demo.js"></script>
 </head>
 <body>
+    <img src="ke.jpg" class="img-cla">
     <div id="playBoxId" class="box">
         <iframe id="viewIframeId"
                 allowFullScreen="true"
@@ -15,6 +17,7 @@
                 scrolling="no"
                 style="width: 100%; height: 100%;"></iframe>
     </div>
-    <button class="switch-btn">秒切实验</button>
+    <button class="switch-btn" disabled="disabled">切换课件</button>
+    <label class="tip-label" ></label>
 </body>
 </html>

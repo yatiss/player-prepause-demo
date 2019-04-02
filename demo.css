@@ -17,3 +17,16 @@ li{
     width: 100px;
     height: 40px;
 }
+.tip-label {
+    position: absolute;
+    font-size: 20px;
+    color: red;
+    left: 120px;
+    top: 5px;
+}
+.img-cla{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
