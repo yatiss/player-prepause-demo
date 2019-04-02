@@ -46,8 +46,8 @@ function setLabel(num) {
 // 预加载
 function preload() {
     // 添加 pause=1 参数,加载完成自动暂停
-    // const url = 'https://wuliplayercdn.nobook.com/?from=zuoyebang&type=nobook&sourceid=res-a40b09d7454c1081adacf0da5b91c912&pause=1';
-    const url = 'http://localhost:4800/?from=zuoyebang&type=nobook&sourceid=res-a40b09d7454c1081adacf0da5b91c912&pause=1';
+    const url = 'https://wuliplayercdn.nobook.com/?from=zuoyebang&type=nobook&sourceid=res-a40b09d7454c1081adacf0da5b91c912&pause=1';
+    // const url = 'http://localhost:4800/?from=zuoyebang&type=nobook&sourceid=res-a40b09d7454c1081adacf0da5b91c912&pause=1';
     console.log('预览:', url);
     $('#viewIframeId').attr('src', url); // 设置src
     // 可以监听实验加载情况
