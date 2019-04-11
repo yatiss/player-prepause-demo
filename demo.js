@@ -1,19 +1,18 @@
 /*************************************************************
- *      iframe预热方案,
+ *      iframe预热方案
  *************************************************************/
+const idlist = [
+    "a40b09d7454c1081adacf0da5b91c912",
+    "30bf42716e4849d0d58a10483757c6a9",
+    "3a674ba1f210a3ec0b986c3c044d18da"
+];
 $(() => {
-    const sourceidArr = [
-      'res-6f74fd406b93cb66f25607bf347d63d4', // 电与磁
-      'res-3a674ba1f210a3ec0b986c3c044d18da', // 声学
-      'res-09be2259345bcfaa4aaab3724fc7ccc3', // 热学
-      'res-0057fb7bb2a7903d007ee4c5e8c56872', // 光学
-      'res-0e853dbcbd443c2c6a20329e7667c3fd', // 力学
-      'res-5fb846f693bab8d6812f031e7ce7972e' // 力与运动
-    ];
+    const hashId = md5(idlist);
+    console.log('~~~~~hashId:', hashId); // 693e9af84d3dfcc71e640e005bdc5e2e
     // 不可以用 display 或改变宽高, 播放器需要用宽高计算场景；可以用 visibility 或 z-index 隐藏
     $('#viewIframeId').css('visibility', 'hidden');
     // 预加载
-    this.preload();
+    this.preload(hashId);
     // 秒切
     let num = 1;
     this.setLabel(num);
@@ -28,8 +27,8 @@ $(() => {
         } else {
             $('#viewIframeId').css('visibility', 'visible');
             if (num > 3) {
-                if(sourceidArr.length) {
-                    this.setSourceId(sourceidArr.shift());
+                if(idlist.length) {
+                    this.setSourceId(idlist.shift());
                 } else {
                     layer.alert('没实验了');
                 }
@@ -44,10 +43,10 @@ function setLabel(num) {
 }
 
 // 预加载
-function preload() {
+function preload(hashId) {
+    const url = 'http://localhost:8080/local/' + hashId+'?from=wangxiao&type=nobook&pause=1&sourceid='+idlist.shift();
     // 添加 pause=1 参数,加载完成自动暂停
-    const url = 'https://wuliplayercdn.nobook.com/?from=zuoyebang&type=nobook&sourceid=res-a40b09d7454c1081adacf0da5b91c912&pause=1';
-    // const url = 'http://localhost:4800/?from=zuoyebang&type=nobook&sourceid=res-a40b09d7454c1081adacf0da5b91c912&pause=1';
+    // const url = 'https://wuliplayercdn.nobook.com/?from=wangxiao&type=nobook&sourceid=res-a40b09d7454c1081adacf0da5b91c912&pause=1';
     console.log('预览:', url);
     $('#viewIframeId').attr('src', url); // 设置src
     // 可以监听实验加载情况
@@ -67,6 +66,7 @@ function preload() {
 }
 // 设置实验id,切换实验
 function setSourceId(sourceid) {
+    console.log('***************************setSourceId:', sourceid);
     this.sendMess({type:'PHYSICS_SET_SOURCEID', sourceid: sourceid});
 }
 // 播放实验
