@@ -7,7 +7,8 @@ const idlist = [
     "3a674ba1f210a3ec0b986c3c044d18da"
 ];
 $(() => {
-    const hashId = md5(idlist);
+    // 根据id
+    const hashId = md5(idlist.sort());
     console.log('~~~~~hashId:', hashId); // 693e9af84d3dfcc71e640e005bdc5e2e
     // 不可以用 display 或改变宽高, 播放器需要用宽高计算场景；可以用 visibility 或 z-index 隐藏
     $('#viewIframeId').css('visibility', 'hidden');
