@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://texturepacker.com-->
+<!-- $TexturePacker:SmartUpdate:cc7c739f2d17631dfe920c7f8a6945d5$ -->
+<TextureAtlas imagePath="common_atlas.png">
+    <SubTexture name="ElecBuzzer" x="1725" y="2" width="158" height="50" frameX="0" frameY="-1" frameWidth="158" frameHeight="52"/>
+    <SubTexture name="ElecMotors" x="1170" y="124" width="129" height="99" frameX="0" frameY="-1" frameWidth="129" frameHeight="101"/>
+    <SubTexture name="ElecResFlask" x="812" y="2" width="67" height="130"/>
+    <SubTexture name="ElecResistanceBox" x="1078" y="372" width="92" height="118" frameX="-54" frameY="-9" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="ForWire" x="1271" y="225" width="136" height="92"/>
+    <SubTexture name="USA_meter" x="979" y="2" width="98" height="124" frameX="-50" frameY="-7" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="ammeter" x="1079" y="2" width="122" height="120" frameX="-39" frameY="-9" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="and_gate" x="968" y="802" width="140" height="140"/>
+    <SubTexture name="battery" x="1160" y="250" width="109" height="104"/>
+    <SubTexture name="battery_holder" x="1539" y="228" width="180" height="46" frameX="-7" frameY="-46" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="blue_wire" x="130" y="1014" width="126" height="8" frameX="-37" frameY="-62" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="capacitance" x="1482" y="338" width="34" height="57"/>
+    <SubTexture name="circuit1" x="1098" y="944" width="128" height="76" frameX="-26" frameY="-13" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit10" x="1228" y="930" width="130" height="84" frameX="-26" frameY="-14" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit11" x="1409" y="190" width="128" height="84" frameX="-26" frameY="-14" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit12" x="1110" y="844" width="130" height="84" frameX="-26" frameY="-14" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit14" x="1352" y="319" width="128" height="84" frameX="-26" frameY="-14" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit15" x="1110" y="758" width="130" height="84" frameX="-26" frameY="-14" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit16" x="1352" y="405" width="132" height="80" frameX="-24" frameY="-12" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit17" x="1078" y="672" width="130" height="84" frameX="-26" frameY="-14" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit18" x="1301" y="100" width="152" height="88" frameX="-23" frameY="-14" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit2" x="1266" y="488" width="128" height="84" frameX="-26" frameY="-13" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit3" x="826" y="944" width="138" height="76" frameX="-25" frameY="-13" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit4" x="1593" y="2" width="130" height="80" frameX="-26" frameY="-13" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit5" x="1511" y="88" width="130" height="80" frameX="-26" frameY="-13" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit6" x="1210" y="672" width="128" height="84" frameX="-26" frameY="-14" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit7" x="1210" y="586" width="128" height="84" frameX="-26" frameY="-14" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit8" x="966" y="944" width="130" height="76" frameX="-26" frameY="-13" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit9" x="1078" y="586" width="130" height="84" frameX="-26" frameY="-14" frameWidth="180" frameHeight="110"/>
+    <SubTexture name="circuit_big1" x="810" y="602" width="266" height="198" frameX="-38" frameY="-22" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big10" x="542" y="202" width="268" height="198" frameX="-38" frameY="-22" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big11" x="810" y="402" width="266" height="198" frameX="-38" frameY="-22" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big12" x="288" y="802" width="268" height="198" frameX="-38" frameY="-22" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big14" x="558" y="802" width="266" height="198" frameX="-38" frameY="-23" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big15" x="272" y="602" width="268" height="198" frameX="-38" frameY="-23" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big16" x="2" y="206" width="268" height="202" frameX="-38" frameY="-18" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big17" x="272" y="402" width="268" height="198" frameX="-38" frameY="-22" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big18" x="272" y="2" width="270" height="198" frameX="-36" frameY="-23" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big2" x="542" y="602" width="266" height="198" frameX="-38" frameY="-22" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big3" x="2" y="814" width="284" height="198" frameX="-38" frameY="-22" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big4" x="2" y="612" width="268" height="200" frameX="-38" frameY="-22" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big5" x="2" y="410" width="268" height="200" frameX="-38" frameY="-22" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big6" x="542" y="402" width="266" height="198" frameX="-38" frameY="-22" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big7" x="544" y="2" width="266" height="198" frameX="-38" frameY="-22" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big8" x="2" y="2" width="268" height="202" frameX="-38" frameY="-18" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="circuit_big9" x="272" y="202" width="268" height="198" frameX="-38" frameY="-22" frameWidth="340" frameHeight="244"/>
+    <SubTexture name="diode" x="1172" y="450" width="137" height="36"/>
+    <SubTexture name="dry_cell" x="1539" y="170" width="133" height="56"/>
+    <SubTexture name="elecEnergy4" x="881" y="2" width="96" height="128" frameX="-47" frameY="-3" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="elec_lamp_and_holder" x="1078" y="492" width="186" height="92" frameX="0" frameY="-22" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="euro_meter" x="944" y="132" width="100" height="124" frameX="-49" frameY="-7" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="inland_ampere_meter" x="942" y="264" width="128" height="126" frameX="-35" frameY="-6" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="inland_voltmeter" x="812" y="134" width="130" height="128" frameX="-34" frameY="-6" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="lamp" x="1455" y="88" width="54" height="82"/>
+    <SubTexture name="lamp_holder" x="1827" y="54" width="187" height="45"/>
+    <SubTexture name="multimeter" x="1072" y="250" width="86" height="120" frameX="-54" frameY="-7" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="or_gate" x="826" y="802" width="140" height="140"/>
+    <SubTexture name="potentiometer" x="1397" y="2" width="194" height="84" frameX="-2" frameY="-36" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="power" x="1203" y="2" width="192" height="96" frameX="-3" frameY="-22" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="red_wire" x="2" y="1014" width="126" height="8" frameX="0" frameY="-1" frameWidth="128" frameHeight="10"/>
+    <SubTexture name="resistance" x="1643" y="84" width="182" height="50" frameX="-3" frameY="-50" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="sensitivitygalvanometer" x="812" y="264" width="128" height="126" frameX="-37" frameY="-2" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="spdt_switch" x="1482" y="276" width="180" height="60" frameX="-8" frameY="-38" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="switch" x="1172" y="356" width="178" height="92" frameX="-9" frameY="-19" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="voltmeter" x="1046" y="128" width="122" height="120" frameX="-39" frameY="-9" frameWidth="196" frameHeight="134"/>
+    <SubTexture name="wire" x="258" y="1014" width="125" height="8"/>
+</TextureAtlas>

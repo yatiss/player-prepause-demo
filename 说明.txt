@@ -1,0 +1,21 @@
+如果上课需要三个id：
+const idlist = [
+    "a40b09d7454c1081adacf0da5b91c912",
+    "30bf42716e4849d0d58a10483757c6a9",
+    "3a674ba1f210a3ec0b986c3c044d18da"
+];
+
+hashId 获取规则: md5(idlist.sort())
+
+一、打包过程
+1、发起请求
+    将id传入打包队列,id以逗号隔开
+    如 http://localhost:3000/start_package?time=1554964176&&sign=693e9af84d3dfcc71e640e005bdc5e2e&&type=1&&id=a40b09d7454c1081adacf0da5b91c912,30bf42716e4849d0d58a10483757c6a9
+    打包完成,压缩包将发送到cdn,如 https://nobook-oss-publish.oss-cn-beijing.aliyuncs.com/temp/test/693e9af84d3dfcc71e640e005bdc5e2e.zip
+
+二、加载过程
+1、前端通过 idlist 生成 hashId, 通过 hashId 拼接成CDN地址, 并下载zip包
+2、首个实验
+    如 http://localhost:8080/local/693e9af84d3dfcc71e640e005bdc5e2e?from=wangxiao&type=nobook&pause=1&sourceid=a40b09d7454c1081adacf0da5b91c912
+3、第二个之后的实验
+    通过 iframe 的 postMessage 消息机制调用 setSourceId 方法切换

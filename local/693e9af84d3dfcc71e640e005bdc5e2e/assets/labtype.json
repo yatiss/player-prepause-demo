@@ -1,0 +1,333 @@
+{
+  "toolbar": [
+    {
+      "name": "电与磁",
+      "lan_key": "labType.ele_mag",
+      "type": "electrical",
+      "labId": "1",
+      "grade": 3,
+      "menu": {}
+    },
+    {
+      "name": "力学",
+      "lan_key": "labType.mechanics",
+      "type": "mechanics",
+      "labId": "5",
+      "grade": 3,
+      "menu": {}
+    },
+    {
+      "name": "光学",
+      "lan_key": "labType.optical",
+      "type": "optical",
+      "labId": "2",
+      "grade": 3,
+      "menu": {}
+    },
+    {
+      "name": "声学",
+      "lan_key": "labType.acous",
+      "type": "acoustic",
+      "labId": "3",
+      "grade": 1,
+      "menu": {}
+    },
+    {
+      "name": "热学",
+      "lan_key": "labType.thermal",
+      "type": "thermal",
+      "labId": "4",
+      "grade": 3,
+      "menu": {}
+    },
+    {
+      "name": "近代物理",
+      "lan_key": "labType.atomic",
+      "type": "",
+      "labId": "9",
+      "grade": 2,
+      "menu": {}
+    },
+    {
+      "name": "家庭电路",
+      "lan_key": "labType.family",
+      "type": "",
+      "labId": "7",
+      "grade": 1,
+      "menu": {}
+    },
+    {
+      "name": "力与运动",
+      "lan_key": "labType.force_mot",
+      "type": "",
+      "labId": "8",
+      "grade": 2,
+      "menu": {}
+    }
+  ],
+  "settings": {
+    "0": {
+      "table": [
+        {
+          "name": "物品信息",
+          "lan_key": "setting.compMess",
+          "command": "COMP_MESS",
+          "checked": true
+        },
+        {
+          "name": "按钮名称",
+          "lan_key": "setting.btnName",
+          "command": "BTN_NAME",
+          "checked": false
+        },
+        {
+          "name": "读数",
+          "lan_key": "setting.label",
+          "command": "SHOWEQUVALUE",
+          "checked": true
+        }
+      ],
+      "list": [
+        {
+          "name": "功能栏位置",
+          "lan_key": "setting.menuLocation",
+          "command": "MENU_LOCATION",
+          "type": 1,
+          "value": [
+            "顶端",
+            "底端"
+          ],
+          "checked": 0
+        },
+        {
+          "name": "启动音效",
+          "lan_key": "setting.sound",
+          "command": "VOLUME",
+          "type": 4,
+          "checked": false
+        },
+        {
+          "name": "截图含有背景",
+          "lan_key": "setting.cutImgHasBack",
+          "command": "TAKE_SCREENSHOT",
+          "type": 4,
+          "platform": 1,
+          "checked": false
+        }
+      ],
+      "color": {
+        "name": "背景颜色",
+        "command": "backgroundColorImg",
+        "checked": 0,
+        "arr": [
+          {
+            "direction":0,
+            "arr":[
+              "#343941"
+            ]
+          },
+          {
+            "direction":0,
+            "arr":[
+              "#575D67"
+            ]
+          },
+          {
+            "direction":0,
+            "arr":[
+              "#FFFFFF"
+            ]
+          },
+          {
+            "direction":0,
+            "arr":[
+              "#F6CE55"
+            ]
+          },
+          {
+            "direction":0,
+            "arr":[
+              "#2763AD"
+            ]
+          },
+          {
+            "direction":0,
+            "arr":[
+              "#38A548"
+            ]
+          },
+          {
+            "direction":0,
+            "alpha": true,
+            "arr":[
+              "#FFFFFF00"
+            ]
+          }
+        ]
+      }
+    },
+    "1": {
+      "table": [
+        {
+          "name": "序号",
+          "lan_key": "setting.serial_num",
+          "command": "SHOW_FLAG_LABEL",
+          "checked": true
+        },
+        {
+          "name": "损坏提示",
+          "lan_key": "setting.dam_prompt",
+          "command": "SHOWTIPPAO",
+          "checked": true
+        },
+        {
+          "name": "导线电流",
+          "lan_key": "setting.current",
+          "command": "showElecLine",
+          "checked": true
+        }
+      ],
+      "list": [
+        {
+          "name": "电场线",
+          "lan_key": "setting.e_fieldline",
+          "command": "SHOW_DIAN_CHANG",
+          "type": 4,
+          "checked": false
+        },
+        {
+          "name": "电场线模式",
+          "lan_key": "setting.statice_model",
+          "command": "DIANCHANG_SE",
+          "type": 1,
+          "value": [
+            "无箭头",
+            "有箭头"
+          ],
+          "depend": [
+            {
+              "command": "SHOW_DIAN_CHANG",
+              "visible": {
+                "checked": true
+              }
+            }
+          ],
+          "checked": 0
+        },
+        {
+          "name": "等势面",
+          "lan_key": "setting.contour_line",
+          "command": "SHOW_DENG_SHI",
+          "type": 4,
+          "checked": false
+        },
+        {
+          "name": "磁感线",
+          "lan_key": "setting.magne_line",
+          "command": "SHOW_CIGAN",
+          "type": 4,
+          "checked": false
+        },
+        {
+          "name": "磁感线模式",
+          "lan_key": "setting.magne_model",
+          "command": "CIGAN_MODEL",
+          "type": 1,
+          "value": [
+            "无箭头",
+            "有箭头"
+          ],
+          "depend": [
+            {
+              "command": "SHOW_CIGAN",
+              "visible": {
+                "checked": true
+              }
+            }
+          ],
+          "checked": 0
+        },
+        {
+          "name": "磁感线虚实切换",
+          "lan_key": "setting.magne_switch",
+          "command": "CIGAN_SE",
+          "type": 1,
+          "value": [
+            "虚线",
+            "实线"
+          ],
+          "depend": [
+            {
+              "command": "SHOW_CIGAN",
+              "visible": {
+                "checked": true
+              }
+            },
+            {
+              "command": "CIGAN_MODEL",
+              "visible": {
+                "checked": 1
+              }
+            }
+          ],
+          "checked": 0
+        }
+      ]
+    },
+    "2": {
+      "table": [
+        {
+          "name": "显示法线",
+          "lan_key": "setting.normal_ray",
+          "command": "OPEN_NORMAL",
+          "checked": false
+        },
+        {
+          "name": "显示角度",
+          "lan_key": "setting.angle",
+          "command": "OPEN_ANGLE",
+          "checked": false
+        },
+        {
+          "name":"反射光线",
+          "lan_key":"setting.reflected",
+          "command":"SHOW_REFLECT",
+          "checked":false
+        },
+        {
+          "name":"光路方向",
+          "lan_key":"setting.light_dir",
+          "command":"SHOW_DIRECTION",
+          "checked":false
+        }
+      ],
+      "list": [
+      ]
+    },
+    "5": {
+      "table": [
+        {
+          "name":"空气阻力",
+          "lan_key":"setting.air_res",
+          "command":"SHOW_ZULI",
+          "checked":false
+        }
+      ],
+      "list": [
+        {
+          "type": 7,
+          "command":"ZULI_NUM",
+          "name":"重力加速度",
+          "lan_key":"setting.g_acceler",
+          "canEnter":true,
+          "enterUnit":"m\/s²",
+          "minValue":0,
+          "maxValue":20,
+          "step":0.1,
+          "precision":1,
+          "showValue":9.8
+        }
+      ]
+    }
+  }
+}

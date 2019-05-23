@@ -1,0 +1,236 @@
+{
+  "register": {
+    "AlarmClock": ["LING"],
+    "Drum": ["DRUM"],
+    "Flute": ["FLUTE"],
+    "Glass": ["GLASS"],
+    "TuningFork": ["YIN_CHA0", "YIN_CHA1", "YIN_CHA2"],
+    "WaterBottle": ["BOTTLE1", "BOTTLE2", "BOTTLE3", "BOTTLE4", "BOTTLE5", "BOTTLE6", "BOTTLE7", "BOTTLE8"],
+    "WoodenTable": ["JU1", "JU2", "JU3"],
+    "AlphaParticleScattering": ["BUTTON_ROTATE"],
+    "ComptonEffect": ["BUTTON_ROTATE"],
+    "CosmicRays": ["BUTTON_ROTATE"],
+    "DCHighVoltagePower": ["BUTTON_ROTATE"],
+    "ElectronDiffraction": ["BUTTON_ROTATE"],
+    "ElectronicInterference": ["BUTTON_ROTATE"],
+    "HighVoltageInductionCoil": ["BUTTON_ROTATE", "ELECTRIC_APPLIANCE"],
+    "MillikanOilDrop": ["BUTTON_ROTATE"],
+    "MultifunctionLightSource": ["BUTTON_ROTATE"],
+    "WilsonCloudChamber": ["BUTTON_ROTATE"],
+    "ElecFamilyAir": ["KONGTIAO", "KONGTIAOLOOP"],
+    "ElecFamilyFridge": ["ZHILENG", "BINGXIANGKAI", "BINGXIANGGUAN"],
+    "ElecFamilyKettle": ["RESHUIHU"],
+    "ElecFamilyPower": ["SWITCH_OPEN", "SWITCH_CLOSE"],
+    "ElecBell": ["ELEC_BELL"],
+    "ElecBuzzer": ["BUMMING"],
+    "ElecPowerStudent": ["BUTTON_ROTATE"],
+    "ElecResistanceBox": ["BUTTON_ROTATE"],
+    "ElectricAppliance": ["ELECTRIC_APPLIANCE"],
+    "ElectromagneticRelay": ["ELECTROMAGNETICRELAY"],
+    "Oscilloscope": ["BUTTON_ROTATE"],
+    "PointerMultimeter": ["BUTTON_ROTATE"],
+    "SignalGenerator": ["BUTTON_ROTATE"],
+    "UniversalMetre": ["BUTTON_ROTATE"],
+    "AirTrack": ["AIRTRACK"],
+    "ComTimerNew": ["COMTIMER"],
+    "HTickerTimer": ["TICKER_TIME"],
+    "VTickerTimer": ["TICKER_TIME"],
+    "Extinguisher": ["EXTINGUISHER"],
+    "Inflate": ["EXTINGUISHER", "INFLATE2"],
+    "Test_tube": ["BA_SAI"]
+  },
+  "mp3": {
+    "BUMMING": {
+      "file": "fengmingqi",
+      "description": "蜂鸣器"
+    },
+    "BURN_OUT": {
+      "file": "burnOut",
+      "description": "烧毁(如电压表，电流表烧毁发出的声音)"
+    },
+    "LAMP_BURN_OUT": {
+      "file": "lampBurnOut",
+      "description": "灯泡烧毁"
+    },
+    "DAO_XIAN_LIAN_JIE": {
+      "file": "dao_xian_lian_jie",
+      "description": "导线连接"
+    },
+    "DELETE_SOUND": {
+      "file": "delete_sound",
+      "description": "删除"
+    },
+    "XIU_FU": {
+      "file": "xiu_fu",
+      "description": "修复"
+    },
+    "ELEC_BELL": {
+      "file": "elecBell",
+      "description": "电铃"
+    },
+    "ELECTRIC_APPLIANCE": {
+      "file": "electricAppliance",
+      "description": "起电器"
+    },
+    "ELECTROMAGNETICRELAY": {
+      "file": "dcjdq",
+      "description": "电磁继电器"
+    },
+    "TUO_CHU_DONG_XI": {
+      "file": "tuo_chu_dong_xi",
+      "description": "拖出器材(添加器材)"
+    },
+    "COMTIMER": {
+      "file": "comtimer",
+      "description": "秒表"
+    },
+    "LING": {
+      "file": "ling",
+      "description": "闹钟"
+    },
+    "YIN_CHA0": {
+      "file": "yincha0",
+      "description": "音叉三种音调:0"
+    },
+    "YIN_CHA1": {
+      "file": "yincha1",
+      "description": "音叉三种音调:1"
+    },
+    "YIN_CHA2": {
+      "file": "yincha2",
+      "description": "音叉三种音调:2"
+    },
+    "GLASS": {
+      "file": "glass",
+      "description": "噪音"
+    },
+    "FLUTE": {
+      "file": "flute",
+      "description": "笛子"
+    },
+    "JU1": {
+      "file": "ju1",
+      "description": "锯子的三种音调(短)"
+    },
+    "JU2": {
+      "file": "ju2",
+      "description": "锯子的三种音调(中)"
+    },
+    "JU3": {
+      "file": "ju3",
+      "description": "锯子的三种音调(长)"
+    },
+    "DRUM": {
+      "file": "drum",
+      "description": "鼓"
+    },
+    "BOTTLE1": {
+      "file": "bottle1",
+      "description": "水瓶琴:1"
+    },
+    "BOTTLE2": {
+      "file": "bottle2",
+      "description": "水瓶琴:2"
+    },
+    "BOTTLE3": {
+      "file": "bottle3",
+      "description": "水瓶琴:3"
+    },
+    "BOTTLE4": {
+      "file": "bottle4",
+      "description": "水瓶琴:4"
+    },
+    "BOTTLE5": {
+      "file": "bottle5",
+      "description": "水瓶琴:5"
+    },
+    "BOTTLE6": {
+      "file": "bottle6",
+      "description": "水瓶琴:6"
+    },
+    "BOTTLE7": {
+      "file": "bottle7",
+      "description": "水瓶琴:7"
+    },
+    "BOTTLE8": {
+      "file": "bottle8",
+      "description": "水瓶琴:8"
+    },
+    "BOBO": {
+      "file": "bobo",
+      "description": "试管盖崩飞的声音"
+    },
+    "SHUI": {
+      "file": "shui",
+      "description": "水烧开翻滚的声音"
+    },
+    "XIFU": {
+      "file": "xifu",
+      "description": "吸附声音(如热学等)"
+    },
+    "SHUIDI": {
+      "file": "shuidi",
+      "description": "水滴声"
+    },
+    "EXTINGUISHER": {
+      "file": "extinguisher",
+      "description": "引火器/打气筒等打气声音"
+    },
+    "INFLATE2": {
+      "file": "inflate2",
+      "description": "瓶口弹开"
+    },
+    "RESHUIHU": {
+      "file": "reshuihu",
+      "description": "电水壶烧开的声音"
+    },
+    "BINGXIANGKAI": {
+      "file": "bingxiangkai",
+      "description": "冰箱开门声音"
+    },
+    "BINGXIANGGUAN": {
+      "file": "bingxiangguan",
+      "description": "冰箱关门声音"
+    },
+    "ZHILENG": {
+      "file": "zhileng",
+      "description": "冰箱制冷声音"
+    },
+    "KONGTIAO": {
+      "file": "kongtiao",
+      "description": "空调声音1"
+    },
+    "KONGTIAOLOOP": {
+      "file": "kongtiaoloop",
+      "description": "空调声音2"
+    },
+    "TICKER_TIME": {
+      "file": "tickerTime",
+      "description": "打点计时器"
+    },
+    "SWITCH_OPEN": {
+      "file": "switchopen",
+      "description": "空气开关的推上"
+    },
+    "SWITCH_CLOSE": {
+      "file": "switchclose",
+      "description": "空气开关的推下"
+    },
+    "AIRTRACK": {
+      "file": "airtrack",
+      "description": "气垫导轨气泵声音"
+    },
+    "BA_SAI": {
+      "file": "basai",
+      "description": "拔瓶塞"
+    },
+    "collision": {
+      "file": "collision",
+      "description": "小球碰撞"
+    },
+    "BUTTON_ROTATE": {
+      "file": "buttonRotate",
+      "description": "按钮旋转"
+    }
+  }
+}

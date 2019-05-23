@@ -1,0 +1,29 @@
+/* 数字上标 */
+.pre-snum {
+  font: 8px 'Times New Roman';
+  vertical-align: super;
+}
+/* 数字下标 */
+.pre-xnum {
+  font: 8px 'Times New Roman';
+  vertical-align: sub;
+}
+/* 字母下标 */
+.pre-xabc {
+  font: italic 11px 'Times New Roman';
+  vertical-align: sub;
+}
+/*字母上标*/
+.pre-sabc {
+  font: 8px 'Times New Roman';
+  vertical-align: super;
+}
+.pre-tipmess-title {
+  font-size: 20px;
+}
+.div-mat-slider-hover{
+  transform: scale(0.7)!important;
+}
+.div-mat-slider-hover:hover{
+  transform: scale(1)!important;
+}

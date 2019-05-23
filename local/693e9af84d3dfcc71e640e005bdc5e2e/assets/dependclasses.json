@@ -1,0 +1,288 @@
+{
+  "DengBan": [
+    {
+      "name": "ElecWire"
+    },
+    {
+      "name": "ElecWire"
+    },
+    {
+      "name": "ElecWire"
+    },
+    {
+      "name": "ElecWire"
+    },
+    {
+      "name": "ElecAmpereMeter",
+      "positionY": -400
+    },
+    {
+      "name": "BatteryHolder",
+      "positionY": 200
+    },
+    {
+      "name": "RedNeedle",
+      "positionX": 230,
+      "positionY": -230
+    },
+    {
+      "name": "BlackNeedle",
+      "positionX": -230,
+      "positionY": -230
+    }
+  ],
+  "PointerMultimeter": [
+    {
+      "name": "ElecWire"
+    },
+    {
+      "name": "ElecWire"
+    },
+    {
+      "name": "RedNeedle",
+      "positionX": 260,
+      "positionY": 300
+    },
+    {
+      "name": "BlackNeedle",
+      "positionX": -260,
+      "positionY": 300
+    }
+  ],
+  "NewtonSecondLaw,InstantaneousVelocity": [
+    {
+      "name": "NbDesk"
+    },
+    {
+      "name": "WoodPad",
+      "positionX": -266.55,
+      "positionY": -186.8
+    },
+    {
+      "name": "PulleyLongBoard",
+      "positionY": -216.985
+    },
+    {
+      "name": "HTickerTimer"
+    },
+    {
+      "name": "NbCar"
+    },
+    {
+      "name": "Hockcode"
+    }
+  ],
+  "WorkAndSpeed": [
+    {
+      "name": "NbDesk"
+    },
+    {
+      "name": "WoodPad",
+      "positionX": -266.55,
+      "positionY": -186.8
+    },
+    {
+      "name": "LongBoardTM",
+      "positionY": -216.985
+    },
+    {
+      "name": "HTickerTimer"
+    }
+  ],
+  "VerifyMechanicalEnergy,FreeFallingMovement": [
+    {
+      "name": "VTickerTimer"
+    },
+    {
+      "name": "Hockcode"
+    }
+  ],
+  "SpringElasAndvarRelationship": [
+    {
+      "name": "FurredCeilingB"
+    },
+    {
+      "name": "SpringTension",
+      "positionX": 500
+    }
+  ],
+  "DynamicFrictionAndStaticFriction,FactorsAreRelatedFriction": [
+    {
+      "name": "NbDesk"
+    },
+    {
+      "name": "LongBoard",
+      "positionY": -178
+    },
+    {
+      "name": "HookWood",
+      "positionX": -380,
+      "positionY": -250
+    },
+    {
+      "name": "SpringTension",
+      "positionX": 500,
+      "positionY": -250
+    },
+    {
+      "name": "WeightBox",
+      "positionX": -380,
+      "positionY": -600
+    }
+  ],
+  "Sink": [
+    {
+      "name": "SinkBack"
+    }
+  ],
+  "Vacuumglass": [
+    {
+      "name": "VacuumglassGap",
+      "positionY": -222
+    }
+  ],
+  "Sink": [
+    {
+      "name": "SinkBack"
+    }],
+  "AstElecComp": [
+    {
+      "name": "AstElecWire"
+    }
+  ],
+  "GlassRob": [
+    {
+      "name": "SilkHandKerchief",
+      "positionY": 120
+    }
+  ],
+  "RubberRod": [
+    {
+      "name": "Fur",
+      "positionY": 100
+    }
+  ],
+  "SMStent": [
+    {
+      "name": "SMBall",
+      "positionX": 37,
+      "positionY": -180
+    }
+  ],
+  "WastPaperZu": [
+    {
+      "name": "WastPaper"
+    },
+    {
+      "name": "WastPaper",
+      "positionX": -50
+    },
+    {
+      "name": "WastPaper",
+      "positionX": 50
+    },
+    {
+      "name": "WastPaper",
+      "positionY": -50
+    },
+    {
+      "name": "WastPaper",
+      "positionY": 50
+    }
+  ],
+  "Bunsen": [
+    {
+      "name": "BunsenGap",
+      "positionY": -60
+    }
+  ],
+  "Dropper": [
+    {
+      "name": "DropperXi",
+      "positionY": -80
+    }
+  ],
+  "ElecFamilyTv": [
+    {
+      "name": "ChaTouTwo"
+    }
+  ],
+  "ElecFamilyFan": [
+    {
+      "name": "ChaTouTwo"
+    }
+  ],
+  "ElecFamilyWave": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyCooker": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyInserted": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyWash": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyFridge": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyAir": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyKettle": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyHeater": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ElecFamilyStove": [
+    {
+      "name": "ChaTouThree"
+    }
+  ],
+  "ConductorWithInsulatingPillarAndMetalFoil": [
+    {
+      "name": "ConductorLeft"
+    },
+    {
+      "name": "ConductorRight"
+    }
+  ],
+  "LiquidMixing": [
+    {
+      "name": "LongTestTube"
+    },
+    {
+      "name": "ReagentBottleThermal",
+      "positionX": 300,
+      "positionY": 350
+    },
+    {
+      "name": "ReagentBottleThermal",
+      "positionX": 700,
+      "positionY": 350
+    }
+  ],
+  "CrossTestLevel": [
+    {
+      "name": "PlumbLine"
+    }
+  ]
+}
